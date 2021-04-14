@@ -1,0 +1,12 @@
+basic.showNumber(0)
+basic.showNumber(1)
+basic.showNumber(2)
+basic.showNumber(3)
+basic.showNumber(4)
+basic.showNumber(5)
+basic.showString("Carolina")
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(1000)
+    basic.showIcon(IconNames.SmallHeart)
+})
